@@ -40,5 +40,4 @@ with open('output.csv', 'w', newline='') as file:
     writer.writeheader()
 
     # write data to the CSV file in a loop
-    for row in data:
-        writer.writerow(row)
+    write.writerows(data)
